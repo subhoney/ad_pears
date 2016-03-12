@@ -5,13 +5,14 @@
     "description": "An extension to remove all content from a webpage and only show adverstising.",
     
     "browser_action": {
-        "default_icon": "./bin/favicon.ico",
-        "default_popup": "./html/popup.html"
+        "default_icon": "bin/pearIcon.ico",
+        "default_popup": "html/popup.html"
     },
     
+    "version": "1.0",
+
     "permissions": [
         "activeTab",
-        "https://ajax.googleapis.com"
-        
+        "https://ajax.googleapis.com/"
     ]
 }
