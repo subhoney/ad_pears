@@ -1,18 +1,25 @@
 {
     "manifest_version": 2,
+    "version": "1.0",
     
     "name": "AdPears",
     "description": "An extension to remove all content from a webpage and only show adverstising.",
     
-    "browser_action": {
-        "default_icon": "bin/pearIcon.ico",
-        "default_popup": "html/popup.html"
+    "icons": { 
+        "16": "bin/pearIcon16.ico",
+        "64": "bin/pearIcon64.ico"    
     },
     
-    "version": "1.0",
+    "browser_action": {
+        "default_icon": {
+            "64": "bin/pearIcon64.ico",
+            "16": "bin/pearIcon16.ico"
+        },
+        "default_popup": "html/popup.html"
+    },
 
     "permissions": [
         "activeTab",
         "https://ajax.googleapis.com/"
-    ]
+    ] 
 }
