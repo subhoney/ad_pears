@@ -6,16 +6,18 @@
     "description": "An extension to remove all content from a webpage and only show adverstising.",
     
     "icons": { 
-        "16": "bin/pearIcon16.ico",
-        "64": "bin/pearIcon64.ico"    
+        "16": "pearIcons/pear16.png", 
+        "20": "pearIcons/pear20.png",
+        "24": "pearIcons/pear24.png", 
+        "32": "pearIcons/pear32.png",
+        "48": "pearIcons/pear48.png",
+        "64": "pearIcons/pear64.png",
+        "128": "pearIcons/pear128.png",
+        "256": "pearIcons/pear256.png"
     },
     
     "browser_action": {
-        "default_icon": {
-            "64": "bin/pearIcon64.ico",
-            "16": "bin/pearIcon16.ico"
-        },
-        "default_popup": "html/popup.html"
+        "default_popup": "popup.html"
     },
 
     "permissions": [
