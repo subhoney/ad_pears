@@ -1,0 +1,78 @@
+font {
+     style: calibri; 
+   }
+   table {
+     border: 3px solid #007bec;
+     width: 50%;
+     margin-left: 25%;
+     margin-right:25%;
+   }
+ 
+   td {
+     text-align: center;
+     padding: 1px;
+   }
+ 
+   tr:nth-child(even){
+    background-color: #7FBDF5 
+   }
+ 
+   th {
+     background-color: #007bec;
+     color: white;
+     text-align: center;
+     padding: 3px;
+   }
+   
+   caption {
+     caption-side: top;
+   }
+   
+   h1, caption {
+   	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+   	font-size: 23px;
+   	font-style: normal;
+   	font-variant: normal;
+   	font-weight: 500;
+   	line-height: 23px;
+   }
+   
+   h3, th {
+   	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+   	font-size: 17px;
+   	font-style: normal;
+   	font-variant: normal;
+   	font-weight: 500;
+   	line-height: 23px;
+   }
+   p, td {
+   	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+   	font-size: 14px;
+   	font-style: normal;
+   	font-variant: normal;
+   	font-weight: 400;
+   	line-height: 23px;
+   }
+   blockquote {
+   	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+   	font-size: 17px;
+   	font-style: normal;
+   	font-variant: normal;
+   	font-weight: 400;
+   	line-height: 23px;
+   }
+   pre {
+   	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+   	font-size: 11px;
+   	font-style: normal;
+   	font-variant: normal;
+   	font-weight: 400;
+   	line-height: 23px;
+   }
+   
+   svg {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;    
+    padding: 10px;
+   }

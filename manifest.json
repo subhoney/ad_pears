@@ -17,9 +17,16 @@
     },
     
     "browser_action": {
-        "default_popup": "popup.html",
         "default_title": "Ads are WONDERFUL!"
     },
+    
+    "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*"],
+      "css": ["css/mystyle.css"],
+      "js": ["js/jquery.js"]
+    }
+  ],
 
     "permissions": [
         "activeTab",
